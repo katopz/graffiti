@@ -12,6 +12,12 @@ npm start
 # Hapi server listening on port 3002
 # Koa server listening on port 3003
 ```
+### Config
+`.env`
+```shell
+# Default : "mongodb://localhost/graphql"
+MONGO_URI="mongodb://localhost:32768/graphql"
+```
 
 ### Query
 ```shell

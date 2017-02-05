@@ -9,6 +9,7 @@
     "@risingstack/graffiti": "../",
     "@risingstack/graffiti-mongoose": "^6.0.0",
     "body-parser": "1.16.0",
+    "dotenv": "^4.0.0",
     "express": "4.14.1",
     "graphql": "0.9.1",
     "koa": "1.2.4",
