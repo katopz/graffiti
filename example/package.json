@@ -2,18 +2,21 @@
   "name": "graffiti-examples",
   "description": "Example servers using graffiti",
   "scripts": {
-    "start": "node .",
+    "start": "babel-node .",
     "postinstall": "npm uninstall graphql"
   },
   "dependencies": {
     "@risingstack/graffiti": "../",
-    "@risingstack/graffiti-mongoose": "^5.2.0",
-    "body-parser": "1.15.2",
-    "express": "4.14.0",
-    "graphql": "0.6.2",
-    "koa": "1.2.1",
-    "koa-bodyparser": "2.2.0",
-    "koa-static": "2.0.0",
-    "mongoose": "4.5.7"
+    "@risingstack/graffiti-mongoose": "^6.0.0",
+    "body-parser": "1.16.0",
+    "express": "4.14.1",
+    "graphql": "0.9.1",
+    "koa": "1.2.4",
+    "koa-bodyparser": "2.3.0",
+    "koa-static": "2.1.0",
+    "mongoose": "4.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2"
   }
 }
