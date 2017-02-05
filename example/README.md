@@ -28,7 +28,7 @@ npm start
 mutation{
   addPet(input:{name:"katopz", type: "B", age: 11}) {
     viewer {
-      pets(name:"pignoom") {
+      pets(name:"katopz") {
         edges {
           node {
             id
