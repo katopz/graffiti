@@ -22,7 +22,7 @@ MONGO_URI="mongodb://localhost:32768/graphql"
 ### Query
 ```shell
 {
-  pets(name: "pignoom") {
+  pets(name: "katopz") {
     id
     name
   }
